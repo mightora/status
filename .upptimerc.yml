@@ -25,8 +25,8 @@ status-website:
   # baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: mightora.io status
-  introTitle: "**mightora.io status** is the status of our open source tools."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**mightora.io status** - The status of our free tools for Power Platform"
+ roMessage: This status page provides **real-time** updates on the availability of free tools hosted on [mightora.io](https://mightora.io) for the Power Platform. Powered by GitHub Actions, Issues, and Pages. [**Learn more or get your own**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
