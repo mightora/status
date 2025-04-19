@@ -23,7 +23,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mightora.io
   # baseUrl: /status
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/mightora/mightora.io/refs/heads/main/static/safari-pinned-tab.svg
   name: mightora.io status
   introTitle: "**mightora.io status** - The status of our free tools for Power Platform"
  roMessage: This status page provides **real-time** updates on the availability of free tools hosted on [mightora.io](https://mightora.io) for the Power Platform. Powered by GitHub Actions, Issues, and Pages. [**Learn more or get your own**](https://github.com/upptime/upptime)
