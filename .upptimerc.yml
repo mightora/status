@@ -10,7 +10,7 @@ sites:
   - name: api.Mightora.io
     url: https://api.mightora.io
   - name: Calculate Working Day - Test 1
-    url: https://api.mightora.io/calculate-working-day/combined/?working_days=1,2, 3&date=2022-12-23&x_working_days=6
+    url: https://api.mightora.io/calculate-working-day/combined/?working_days=1,2,3&date=2022-12-23&x_working_days=6
   - name: Email Domain Checker - Test 1
     url: https://api.mightora.io/emailDomainChecker/checkDomain/?domain=bbc.co.uk
 assignees: # Users to assign downtime issues (optional)
