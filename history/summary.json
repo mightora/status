@@ -52,7 +52,7 @@
     "timeMonth": 747,
     "timeYear": 747,
     "dailyMinutesDown": {
-      "2025-05-07": 216,
+      "2025-05-07": 236,
       "2025-05-06": 1440,
       "2025-05-05": 1440,
       "2025-05-04": 1440,
@@ -77,19 +77,19 @@
     "url": "https://api.mightora.io/calculate-working-day/combined/?working_days=1,2,3&date=2022-12-23&x_working_days=6",
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "calculate-working-day-test-1",
-    "status": "down",
-    "uptime": "99.79%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.79%",
-    "uptimeYear": "99.79%",
-    "time": 143,
-    "timeDay": 126,
-    "timeWeek": 131,
-    "timeMonth": 143,
-    "timeYear": 143,
+    "status": "up",
+    "uptime": "99.71%",
+    "uptimeDay": "98.55%",
+    "uptimeWeek": "99.79%",
+    "uptimeMonth": "99.71%",
+    "uptimeYear": "99.71%",
+    "time": 144,
+    "timeDay": 140,
+    "timeWeek": 134,
+    "timeMonth": 144,
+    "timeYear": 144,
     "dailyMinutesDown": {
-      "2025-05-07": 2,
+      "2025-05-07": 21,
       "2025-04-20": 49
     }
   },
@@ -98,19 +98,19 @@
     "url": "https://api.mightora.io/emailDomainChecker/checkDomain/?domain=bbc.co.uk",
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "email-domain-checker-test-1",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "98.66%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
     "time": 214,
-    "timeDay": 147,
+    "timeDay": 177,
     "timeWeek": 207,
     "timeMonth": 214,
     "timeYear": 214,
     "dailyMinutesDown": {
-      "2025-05-07": 0
+      "2025-05-07": 19
     }
   }
 ]
