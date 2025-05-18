@@ -1,7 +1,7 @@
 url: https://api.mightora.io/emailDomainChecker/checkDomain/?domain=bbc.co.uk
 status: up
 code: 200
-responseTime: 222
-lastUpdated: 2025-05-17T23:17:46.702Z
+responseTime: 234
+lastUpdated: 2025-05-18T23:17:56.041Z
 startTime: 2025-04-20T08:07:15.847Z
 generator: Upptime <https://github.com/upptime/upptime>
