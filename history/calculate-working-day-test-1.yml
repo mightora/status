@@ -1,7 +1,7 @@
 url: https://api.mightora.io/calculate-working-day/combined/?working_days=1,2,3&date=2022-12-23&x_working_days=6
 status: up
 code: 200
-responseTime: 125
-lastUpdated: 2025-08-27T23:17:28.712Z
+responseTime: 119
+lastUpdated: 2025-08-28T23:17:46.081Z
 startTime: 2025-04-20T08:07:13.563Z
 generator: Upptime <https://github.com/upptime/upptime>
