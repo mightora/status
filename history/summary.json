@@ -52,7 +52,7 @@
     "timeMonth": 942,
     "timeYear": 763,
     "dailyMinutesDown": {
-      "2025-11-29": 39,
+      "2025-11-29": 1398,
       "2025-11-28": 1440,
       "2025-11-27": 1440,
       "2025-11-26": 1440,
@@ -283,9 +283,9 @@
     "url": "https://api.mightora.io/calculate-working-day/combined/?working_days=1,2,3&date=2022-12-23&x_working_days=6",
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "calculate-working-day-test-1",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.78%",
     "uptimeYear": "99.95%",
@@ -295,6 +295,7 @@
     "timeMonth": 178,
     "timeYear": 145,
     "dailyMinutesDown": {
+      "2025-11-29": 0,
       "2025-11-18": 96,
       "2025-05-07": 21,
       "2025-04-20": 49
