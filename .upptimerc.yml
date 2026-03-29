@@ -14,7 +14,7 @@ sites:
   - name: WiFi Captive Portal Helper - Connect Site - http://connect.mightora.io
     url: http://connect.mightora.io
   - name: WiFi Captive Portal Helper - Connected Site - https://connected.mightora.io
-    url: https://connected.mightora.io
+    url: http://connected.mightora.io
 assignees: # Users to assign downtime issues (optional)
   - itweedie
 status-website:
