@@ -25,7 +25,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/mightora/mightora.io/refs/heads/main/static/safari-pinned-tab.svg
   faviconSvg: https://raw.githubusercontent.com/mightora/mightora.io/refs/heads/main/static/safari-pinned-tab.svg
   name: mightora.io status
-  introTitle: "**mightora.io status** - The status of our free tools for Power Platform"
+  introTitle: "**mightora.io status** - The status of our free tools"
   introMessage: This status page provides **real-time** updates on the availability of free tools hosted on [mightora.io](https://mightora.io) for the Power Platform. Powered by GitHub Actions, Issues, and Pages. [**Learn more or get your own**](https://github.com/upptime/upptime)
   # Custom theme matching mightora.io look & feel (lime-green accents, Quicksand font)
   themeUrl: https://status.mightora.io/mightora-theme.css
@@ -47,6 +47,16 @@ status-website:
       href: https://mightora.io/about
     - title: GitHub
       href: https://github.com/mightora
+
+# Rebuild the static site every 15 minutes (instead of the default once per day)
+# so that status changes are visible on the website quickly.
+workflowSchedule:
+  uptime: "*/5 * * * *"       # check endpoints every 5 min (default)
+  staticSite: "*/15 * * * *"  # rebuild & deploy the site every 15 min
+  summary: "0 0 * * *"        # update README daily (default)
+  graphs: "0 0 * * *"         # regenerate graphs daily (default)
+  responseTime: "0 23 * * *"  # response time report daily (default)
+  updates: "0 3 * * *"        # check for template updates daily (default)
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
