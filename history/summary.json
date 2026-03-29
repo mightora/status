@@ -101,20 +101,20 @@
   },
   {
     "name": "WiFi Captive Portal Helper - Connected Site - https://connected.mightora.io",
-    "url": "https://connected.mightora.io",
+    "url": "http://connected.mightora.io",
     "icon": "https://icons.duckduckgo.com/ip3/connected.mightora.io.ico",
     "slug": "wi-fi-captive-portal-helper-connected-site-https-connected-mightora-io",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "time": 587,
+    "timeDay": 587,
+    "timeWeek": 587,
+    "timeMonth": 587,
+    "timeYear": 587,
     "dailyMinutesDown": {}
   }
 ]
