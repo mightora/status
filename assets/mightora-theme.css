@@ -1,48 +1,49 @@
 /* =============================================================
-   mightora.io theme for Upptime status page
-   Matches https://mightora.io dark mode exactly:
-     • Background:  #111  (Hextra --color-dark)
-     • Text:        #f3f4f6  (Tailwind gray-100)
-     • Primary:     hsl(100,90%,50%) = #59f20d  (--primary-hue:100, --primary-saturation:90%)
+   mightora.io LIGHT theme for Upptime status page
+   Matches https://mightora.io light mode exactly:
+     • Background:  #ffffff  (Hextra bg-white)
+     • Text:        #111827  (Tailwind gray-900)
+     • Primary:     hsl(100,90%,50%) = #59f20d as accent
+     • Links:       hsl(100,90%,36%) = #3c9108 (readable on white)
      • Font:        Quicksand (same as mightora.io custom.css)
    ============================================================= */
 
 :root {
   /* ── Backgrounds ─────────────────────────────────────────── */
-  --body-background-color: #111111;       /* exact Hextra --color-dark        */
-  --body-text-color: #f3f4f6;             /* Tailwind gray-100                */
-  --card-background-color: #1a1a1a;       /* slightly elevated over body      */
+  --body-background-color: #ffffff;       /* Hextra light bg-white            */
+  --body-text-color: #111827;             /* Tailwind gray-900                */
+  --card-background-color: #ffffff;       /* white cards on white body        */
 
   /* ── Navigation ──────────────────────────────────────────── */
-  --nav-background-color: #111111;        /* matches body – Hextra dark nav   */
-  --nav-border-bottom-color: #1c3e08;     /* hsl(100,90%,14%) – subtle green  */
-  --nav-current-border-bottom-color: #59f20d; /* primary-500 exact            */
+  --nav-background-color: #ffffff;        /* white nav, matches mightora.io   */
+  --nav-border-bottom-color: #e5e7eb;     /* Tailwind gray-200 separator      */
+  --nav-current-border-bottom-color: #59f20d; /* bright lime-green accent     */
 
   /* ── Cards ───────────────────────────────────────────────── */
-  --card-border-color: #1c3e08;           /* same dark green as nav separator */
+  --card-border-color: #e5e7eb;           /* Tailwind gray-200                */
 
   /* ── Status colours ──────────────────────────────────────── */
-  --down-border-left-color: #f05065;
-  --down-background-color: #2d0a10;
-  --degraded-border-left-color: #f7b731;
-  --up-border-left-color: #59f20d;        /* primary-500                      */
+  --down-border-left-color: #ef4444;      /* Tailwind red-500                 */
+  --down-background-color: #fef2f2;       /* Tailwind red-50                  */
+  --degraded-border-left-color: #f59e0b;  /* Tailwind amber-400               */
+  --up-border-left-color: #59f20d;        /* primary-500 lime-green           */
 
   /* ── Status tags ─────────────────────────────────────────── */
-  --tag-color: #111111;
-  --tag-up-background-color: #59f20d;     /* primary-500                      */
-  --tag-down-background-color: #f05065;
-  --tag-degraded-background-color: #f7b731;
+  --tag-color: #111827;                   /* dark text on all tag backgrounds */
+  --tag-up-background-color: #59f20d;     /* bright lime-green                */
+  --tag-down-background-color: #fca5a5;   /* Tailwind red-300, readable       */
+  --tag-degraded-background-color: #fcd34d; /* Tailwind amber-300             */
 
   /* ── Highlights ──────────────────────────────────────────── */
-  --change-background-color: #f7b731;
+  --change-background-color: #fef9c3;     /* Tailwind yellow-100              */
 
-  /* ── Buttons (match mightora.io green CTA style) ─────────── */
-  --error-button-border-color: #3d9e09;   /* primary-600 ≈ hsl(100,90%,40%)  */
+  /* ── Buttons (green CTA matching mightora.io light mode) ─── */
+  --error-button-border-color: #3c9108;   /* hsl(100,90%,36%) – darker green  */
   --error-button-background-color: #59f20d;
-  --error-button-color: #111111;
-  --submit-button-border-color: #3d9e09;
+  --error-button-color: #111827;
+  --submit-button-border-color: #3c9108;
   --submit-button-background-color: #59f20d;
-  --submit-button-color: #111111;
+  --submit-button-color: #111827;
 
   /* ── Graphs ──────────────────────────────────────────────── */
   --graph-opacity: 1;
@@ -50,20 +51,20 @@
 }
 
 /* ── Typography ──────────────────────────────────────────────
-   Quicksand is set via mightora.io's custom.css; replicate it */
+   Quicksand is used by mightora.io via its custom.css         */
 body, button, input, select, textarea {
   font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, sans-serif !important;
 }
 
 /* ── Links ───────────────────────────────────────────────────
-   Match the primary-500 green used across mightora.io         */
+   Darker shade of primary for legibility on white background  */
 a {
-  color: #59f20d !important;
+  color: #3c9108 !important;             /* hsl(100,90%,36%) – dark enough   */
 }
 
 a:hover {
-  color: #6aff1e !important;
+  color: #2e6d06 !important;             /* hsl(100,90%,28%) – slightly darker */
   text-decoration: underline;
 }
 
@@ -75,13 +76,19 @@ nav h1 {
   letter-spacing: -0.01em;
 }
 
-/* ── Nav: subtle divider between links ─────────────────────── */
+/* ── Nav: subtle gray divider between links ─────────────────── */
 nav ul li + li {
-  border-left: 1px solid #1c3e08;
+  border-left: 1px solid #e5e7eb;
 }
 
 /* ── Cards: soften corners like mightora.io's card components  */
 .status-card,
 [class*="card"] {
   border-radius: 6px !important;
+}
+
+/* ── Ensure the logo SVG is visible on a white nav ─────────── */
+nav img[alt*="logo"],
+nav .logo img {
+  filter: none;
 }

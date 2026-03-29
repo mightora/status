@@ -27,7 +27,8 @@ status-website:
   name: mightora.io status
   introTitle: "**mightora.io status** - The status of our free tools"
   introMessage: This status page provides **real-time** updates on the availability of free tools hosted on [mightora.io](https://mightora.io) for the Power Platform. Powered by GitHub Actions, Issues, and Pages. [**Learn more or get your own**](https://github.com/upptime/upptime)
-  # Custom theme matching mightora.io look & feel (lime-green accents, Quicksand font)
+  theme: light
+  # Custom theme matching mightora.io light look & feel (lime-green accents, Quicksand font)
   themeUrl: https://status.mightora.io/mightora-theme.css
   links:
     - rel: preconnect
