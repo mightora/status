@@ -13,7 +13,7 @@ sites:
     url: https://api.mightora.io/emailDomainChecker/checkDomain/?domain=bbc.co.uk
   - name: WiFi Captive Portal Helper - Connect Site - http://connect.mightora.io
     url: http://connect.mightora.io
-  - name: WiFi Captive Portal Helper - Connected Site - http://connected.mightora.io
+  - name: WiFi Captive Portal Helper - Connected Site - https://connected.mightora.io
     url: https://connected.mightora.io
 assignees: # Users to assign downtime issues (optional)
   - itweedie
