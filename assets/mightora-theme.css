@@ -1,0 +1,78 @@
+/* =============================================================
+   mightora.io inspired theme for Upptime status page
+   Matches the dark-mode design of https://mightora.io
+   Primary: lime-green (hsl(100, 90%, ...)) · Font: Quicksand
+   ============================================================= */
+
+:root {
+  /* ── Backgrounds ─────────────────────────────────────────── */
+  --body-background-color: #111111;
+  --body-text-color: #f0f0f0;
+  --card-background-color: #1c1c1c;
+
+  /* ── Navigation ──────────────────────────────────────────── */
+  --nav-background-color: #111111;
+  --nav-border-bottom-color: #2a5210;
+  --nav-current-border-bottom-color: #6acc14;
+
+  /* ── Cards ───────────────────────────────────────────────── */
+  --card-border-color: #2a5210;
+
+  /* ── Status colours ──────────────────────────────────────── */
+  --down-border-left-color: #eb3b5a;
+  --down-background-color: #3d0f1a;
+  --degraded-border-left-color: #f7b731;
+  --up-border-left-color: #6acc14;
+
+  /* ── Status tags ─────────────────────────────────────────── */
+  --tag-color: #111111;
+  --tag-up-background-color: #6acc14;
+  --tag-down-background-color: #eb3b5a;
+  --tag-degraded-background-color: #f7b731;
+
+  /* ── Highlights ──────────────────────────────────────────── */
+  --change-background-color: #f7b731;
+
+  /* ── Buttons ─────────────────────────────────────────────── */
+  --error-button-border-color: #4a8a0a;
+  --error-button-background-color: #6acc14;
+  --error-button-color: #111111;
+  --submit-button-border-color: #4a8a0a;
+  --submit-button-background-color: #6acc14;
+  --submit-button-color: #111111;
+
+  /* ── Graphs ──────────────────────────────────────────────── */
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+/* ── Typography ──────────────────────────────────────────────
+   Quicksand matches the mightora.io brand font exactly        */
+body,
+* {
+  font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* ── Links ───────────────────────────────────────────────────
+   Lime-green to match mightora.io accent colour               */
+a {
+  color: #6acc14 !important;
+}
+
+a:hover {
+  color: #7ddb1e !important;
+  text-decoration: underline;
+}
+
+/* ── Nav logo / site name ────────────────────────────────────
+   Bold weight mirrors mightora.io's navbar branding           */
+nav .logo-name,
+nav .logo h1 {
+  font-weight: 700 !important;
+}
+
+/* ── Subtle separator between nav items ──────────────────── */
+nav ul li + li {
+  border-left: 1px solid #2a5210;
+}
