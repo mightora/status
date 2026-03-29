@@ -1,12 +1,12 @@
 /* =============================================================
-   mightora.io LIGHT theme for Upptime status page
+   mightora.io — LIGHT theme for Upptime status page
    Matches https://mightora.io light mode exactly:
      • Background:  #ffffff  (Hextra bg-white)
      • Text:        #111827  (Tailwind gray-900)
      • Primary:     hsl(100,90%,50%) = #59f20d as accent
-     • Links:       hsl(100,90%,36%) = #3c9108 (readable on white)
+     • Links:       #1d4ed8  (Tailwind blue-700 — clear, accessible)
      • Font:        Quicksand (same as mightora.io custom.css)
-   ============================================================= */
+  ============================================================= */
 
 :root {
   /* ── Backgrounds ─────────────────────────────────────────── */
@@ -37,15 +37,15 @@
   /* ── Highlights ──────────────────────────────────────────── */
   --change-background-color: #fef9c3;     /* Tailwind yellow-100              */
 
-  /* ── Buttons (green CTA matching mightora.io light mode) ─── */
-  --error-button-border-color: #3c9108;   /* hsl(100,90%,36%) – darker green  */
-  --error-button-background-color: #59f20d;
-  --error-button-color: #111827;
-  --submit-button-border-color: #3c9108;
-  --submit-button-background-color: #59f20d;
-  --submit-button-color: #111827;
+  /* ── Buttons ─────────────────────────────────────────────── */
+  --error-button-border-color: #1e40af;   /* Tailwind blue-800                */
+  --error-button-background-color: #1d4ed8; /* Tailwind blue-700              */
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #1e40af;
+  --submit-button-background-color: #1d4ed8;
+  --submit-button-color: #ffffff;
 
-  /* ── Graphs ──────────────────────────────────────────────── */
+  /* ── Graphs ─────────────────────────────────────────────── */
   --graph-opacity: 1;
   --graph-filter: none;
 }
@@ -53,18 +53,19 @@
 /* ── Typography ──────────────────────────────────────────────
    Quicksand is used by mightora.io via its custom.css         */
 body, button, input, select, textarea {
-  font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont,
+  font-family:
+    'Quicksand', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, sans-serif !important;
 }
 
 /* ── Links ───────────────────────────────────────────────────
-   Darker shade of primary for legibility on white background  */
+   Standard accessible blue — readable on white, no green     */
 a {
-  color: #3c9108 !important;             /* hsl(100,90%,36%) – dark enough   */
+  color: #1d4ed8 !important;             /* Tailwind blue-700                */
 }
 
 a:hover {
-  color: #2e6d06 !important;             /* hsl(100,90%,28%) – slightly darker */
+  color: #1e40af !important;             /* Tailwind blue-800 — slightly darker */
   text-decoration: underline;
 }
 
@@ -81,7 +82,7 @@ nav ul li + li {
   border-left: 1px solid #e5e7eb;
 }
 
-/* ── Cards: soften corners like mightora.io's card components  */
+/* ── Cards: soften corners like mightora.io's card components */
 .status-card,
 [class*="card"] {
   border-radius: 6px !important;

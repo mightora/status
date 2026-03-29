@@ -13,7 +13,7 @@ sites:
     url: https://api.mightora.io/emailDomainChecker/checkDomain/?domain=bbc.co.uk
   - name: WiFi Captive Portal Helper - Connect Site - http://connect.mightora.io
     url: http://connect.mightora.io
-  - name: WiFi Captive Portal Helper - Connected Site - http://connected.mightora.io
+  - name: WiFi Captive Portal Helper - Connected Site - https://connected.mightora.io
     url: https://connected.mightora.io
 assignees: # Users to assign downtime issues (optional)
   - itweedie
@@ -27,8 +27,7 @@ status-website:
   name: mightora.io status
   introTitle: "**mightora.io status** - The status of our free tools"
   introMessage: This status page provides **real-time** updates on the availability of free tools hosted on [mightora.io](https://mightora.io) for the Power Platform. Powered by GitHub Actions, Issues, and Pages. [**Learn more or get your own**](https://github.com/upptime/upptime)
-  theme: light
-  # Custom theme matching mightora.io light look & feel (lime-green accents, Quicksand font)
+  # Custom theme matching mightora.io look & feel (lime-green accents, Quicksand font)
   themeUrl: https://status.mightora.io/mightora-theme.css
   links:
     - rel: preconnect
