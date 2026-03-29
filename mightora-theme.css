@@ -1,44 +1,47 @@
 /* =============================================================
-   mightora.io inspired theme for Upptime status page
-   Matches the dark-mode design of https://mightora.io
-   Primary: lime-green (hsl(100, 90%, ...)) · Font: Quicksand
+   mightora.io theme for Upptime status page
+   Matches https://mightora.io dark mode exactly:
+     • Background:  #111  (Hextra --color-dark)
+     • Text:        #f3f4f6  (Tailwind gray-100)
+     • Primary:     hsl(100,90%,50%) = #59f20d  (--primary-hue:100, --primary-saturation:90%)
+     • Font:        Quicksand (same as mightora.io custom.css)
    ============================================================= */
 
 :root {
   /* ── Backgrounds ─────────────────────────────────────────── */
-  --body-background-color: #111111;
-  --body-text-color: #f0f0f0;
-  --card-background-color: #1c1c1c;
+  --body-background-color: #111111;       /* exact Hextra --color-dark        */
+  --body-text-color: #f3f4f6;             /* Tailwind gray-100                */
+  --card-background-color: #1a1a1a;       /* slightly elevated over body      */
 
   /* ── Navigation ──────────────────────────────────────────── */
-  --nav-background-color: #111111;
-  --nav-border-bottom-color: #2a5210;
-  --nav-current-border-bottom-color: #6acc14;
+  --nav-background-color: #111111;        /* matches body – Hextra dark nav   */
+  --nav-border-bottom-color: #1c3e08;     /* hsl(100,90%,14%) – subtle green  */
+  --nav-current-border-bottom-color: #59f20d; /* primary-500 exact            */
 
   /* ── Cards ───────────────────────────────────────────────── */
-  --card-border-color: #2a5210;
+  --card-border-color: #1c3e08;           /* same dark green as nav separator */
 
   /* ── Status colours ──────────────────────────────────────── */
-  --down-border-left-color: #eb3b5a;
-  --down-background-color: #3d0f1a;
+  --down-border-left-color: #f05065;
+  --down-background-color: #2d0a10;
   --degraded-border-left-color: #f7b731;
-  --up-border-left-color: #6acc14;
+  --up-border-left-color: #59f20d;        /* primary-500                      */
 
   /* ── Status tags ─────────────────────────────────────────── */
   --tag-color: #111111;
-  --tag-up-background-color: #6acc14;
-  --tag-down-background-color: #eb3b5a;
+  --tag-up-background-color: #59f20d;     /* primary-500                      */
+  --tag-down-background-color: #f05065;
   --tag-degraded-background-color: #f7b731;
 
   /* ── Highlights ──────────────────────────────────────────── */
   --change-background-color: #f7b731;
 
-  /* ── Buttons ─────────────────────────────────────────────── */
-  --error-button-border-color: #4a8a0a;
-  --error-button-background-color: #6acc14;
+  /* ── Buttons (match mightora.io green CTA style) ─────────── */
+  --error-button-border-color: #3d9e09;   /* primary-600 ≈ hsl(100,90%,40%)  */
+  --error-button-background-color: #59f20d;
   --error-button-color: #111111;
-  --submit-button-border-color: #4a8a0a;
-  --submit-button-background-color: #6acc14;
+  --submit-button-border-color: #3d9e09;
+  --submit-button-background-color: #59f20d;
   --submit-button-color: #111111;
 
   /* ── Graphs ──────────────────────────────────────────────── */
@@ -47,32 +50,38 @@
 }
 
 /* ── Typography ──────────────────────────────────────────────
-   Quicksand matches the mightora.io brand font exactly        */
-body,
-* {
+   Quicksand is set via mightora.io's custom.css; replicate it */
+body, button, input, select, textarea {
   font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, sans-serif !important;
 }
 
 /* ── Links ───────────────────────────────────────────────────
-   Lime-green to match mightora.io accent colour               */
+   Match the primary-500 green used across mightora.io         */
 a {
-  color: #6acc14 !important;
+  color: #59f20d !important;
 }
 
 a:hover {
-  color: #7ddb1e !important;
+  color: #6aff1e !important;
   text-decoration: underline;
 }
 
-/* ── Nav logo / site name ────────────────────────────────────
-   Bold weight mirrors mightora.io's navbar branding           */
+/* ── Nav: bold site name, matching mightora.io branding ───── */
 nav .logo-name,
-nav .logo h1 {
+nav .logo h1,
+nav h1 {
   font-weight: 700 !important;
+  letter-spacing: -0.01em;
 }
 
-/* ── Subtle separator between nav items ──────────────────── */
+/* ── Nav: subtle divider between links ─────────────────────── */
 nav ul li + li {
-  border-left: 1px solid #2a5210;
+  border-left: 1px solid #1c3e08;
+}
+
+/* ── Cards: soften corners like mightora.io's card components  */
+.status-card,
+[class*="card"] {
+  border-radius: 6px !important;
 }
