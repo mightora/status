@@ -15,6 +15,10 @@ sites:
     url: http://connect.mightora.io
   - name: WiFi Captive Portal Helper - Connected Site - https://connected.mightora.io
     url: http://connected.mightora.io
+  - name: JSON Explorer — Free JSON Tool by Mightora.io
+    url: https://json-explorer.mightora.io
+  - name: QR Code Studio — by Mightora
+    url: https://qr.mightora.io
 assignees: # Users to assign downtime issues (optional)
   - itweedie
 status-website:
