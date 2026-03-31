@@ -116,5 +116,41 @@
     "timeMonth": 545,
     "timeYear": 545,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "JSON Explorer — Free JSON Tool by Mightora.io",
+    "url": "https://json-explorer.mightora.io",
+    "icon": "https://icons.duckduckgo.com/ip3/json-explorer.mightora.io.ico",
+    "slug": "json-explorer-free-json-tool-by-mightora-io",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 202,
+    "timeDay": 202,
+    "timeWeek": 202,
+    "timeMonth": 202,
+    "timeYear": 202,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "QR Code Studio — by Mightora",
+    "url": "https://qr.mightora.io",
+    "icon": "https://icons.duckduckgo.com/ip3/qr.mightora.io.ico",
+    "slug": "qr-code-studio-by-mightora",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 189,
+    "timeDay": 189,
+    "timeWeek": 189,
+    "timeMonth": 189,
+    "timeYear": 189,
+    "dailyMinutesDown": {}
   }
 ]
