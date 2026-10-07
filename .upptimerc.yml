@@ -17,15 +17,43 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightoraIoLogo4-200x900.png
+  favicon: https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightora-io-swirl.png
+  name: Mightora Status
+  introTitle: "**Mightora** service status"
+  introMessage: "Live availability and performance for Mightora services. We monitor our services to help keep the Power Platform community connected."
+  themeUrl: https://raw.githubusercontent.com/mightora/status/main/assets/mightora-theme.css
+  hideNavLogo: true
+  hideNavTitle: true
+  customHeadHtml: |
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/shared.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/components.js" defer></script>
+  customBodyHtml: |
+    <mightora-header
+      site-name="Mightora Status"
+      site-url="/"
+      logo-light="https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightoraIoLogo4-200x900.png"
+      logo-dark="https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightoraIoLogo4-200x900.png"
+      theme-key="mightora-status-theme"
+      nav-links='[{"label":"Status","url":"/"},{"label":"Mightora.io ↗","url":"https://mightora.io","ext":true}]'>
+    </mightora-header>
+  customFootHtml: |
+    <mightora-footer yaml-url="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/footer.yaml">
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="footer-copy">&copy; <span class="footer-year"></span> Mightora. All rights reserved.</div>
+          <div class="footer-bottom-links">
+            <a href="https://github.com/mightora/status">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </mightora-footer>
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Mightora.io
+      href: https://mightora.io
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
