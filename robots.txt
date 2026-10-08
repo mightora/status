@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://status.mightora.io/sitemap.xml
