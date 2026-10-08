@@ -1,0 +1,10 @@
+# Mightora Service Status
+
+> Official status page for services monitored by Mightora. View current uptime, response-time trends, and incident history.
+
+- Status dashboard: https://status.mightora.io/
+- Mightora: https://mightora.io/
+- Source repository and incident reports: https://github.com/mightora/status
+- Google history: https://status.mightora.io/history/google
+- Wikipedia history: https://status.mightora.io/history/wikipedia
+- Hacker News history: https://status.mightora.io/history/hacker-news
