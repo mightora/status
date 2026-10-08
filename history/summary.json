@@ -95,18 +95,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/connecting.mightora.io.ico",
     "slug": "mightora-wi-fi-captive-portal-helper-connecting",
     "status": "down",
-    "uptime": "16.16%",
-    "uptimeDay": "16.16%",
-    "uptimeWeek": "16.16%",
-    "uptimeMonth": "16.16%",
-    "uptimeYear": "16.16%",
+    "uptime": "0.13%",
+    "uptimeDay": "0.13%",
+    "uptimeWeek": "0.13%",
+    "uptimeMonth": "0.13%",
+    "uptimeYear": "0.13%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 1
+      "2026-10-08": 179
     }
   },
   {
@@ -115,18 +115,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/connected.mightora.io.ico",
     "slug": "mightora-wi-fi-captive-portal-helper-connected",
     "status": "down",
-    "uptime": "18.35%",
-    "uptimeDay": "18.35%",
-    "uptimeWeek": "18.35%",
-    "uptimeMonth": "18.35%",
-    "uptimeYear": "18.35%",
+    "uptime": "0.12%",
+    "uptimeDay": "0.12%",
+    "uptimeWeek": "0.12%",
+    "uptimeMonth": "0.12%",
+    "uptimeYear": "0.12%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 1
+      "2026-10-08": 179
     }
   },
   {
@@ -135,16 +135,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "90.91%",
-    "uptimeDay": "90.91%",
-    "uptimeWeek": "90.91%",
-    "uptimeMonth": "90.91%",
-    "uptimeYear": "90.91%",
-    "time": 399,
-    "timeDay": 399,
-    "timeWeek": 399,
-    "timeMonth": 399,
-    "timeYear": 399,
+    "uptime": "99.74%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.74%",
+    "uptimeMonth": "99.74%",
+    "uptimeYear": "99.74%",
+    "time": 395,
+    "timeDay": 395,
+    "timeWeek": 395,
+    "timeMonth": 395,
+    "timeYear": 395,
     "dailyMinutesDown": {
       "2026-10-08": 0
     }
@@ -209,16 +209,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/json-explorer.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "91.23%",
-    "uptimeDay": "91.23%",
-    "uptimeWeek": "91.23%",
-    "uptimeMonth": "91.23%",
-    "uptimeYear": "91.23%",
-    "time": 399,
-    "timeDay": 399,
-    "timeWeek": 399,
-    "timeMonth": 399,
-    "timeYear": 399,
+    "uptime": "99.73%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.73%",
+    "uptimeMonth": "99.73%",
+    "uptimeYear": "99.73%",
+    "time": 395,
+    "timeDay": 395,
+    "timeWeek": 395,
+    "timeMonth": 395,
+    "timeYear": 395,
     "dailyMinutesDown": {
       "2026-10-08": 0
     }
@@ -301,18 +301,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "test-b",
     "status": "down",
-    "uptime": "0.25%",
-    "uptimeDay": "0.25%",
-    "uptimeWeek": "0.25%",
-    "uptimeMonth": "0.25%",
-    "uptimeYear": "0.25%",
+    "uptime": "0.08%",
+    "uptimeDay": "0.08%",
+    "uptimeWeek": "0.08%",
+    "uptimeMonth": "0.08%",
+    "uptimeYear": "0.08%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 74
+      "2026-10-08": 252
     }
   }
 ]
