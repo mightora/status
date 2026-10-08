@@ -9,6 +9,32 @@ sites:
     url: https://mightora.io
   - name: Mightora | Feedback
     url: https://feedback.mightora.io
+  - name: Mightora | Presentation Slides
+    url: https://slides.mightora.io
+  - name: Mightora | WiFi Captive Portal Helper - Connect
+    url: http://connect.mightora.io
+  - name: Mightora | WiFi Captive Portal Helper - Connecting
+    url: https://connecting.mightora.io
+  - name: Mightora | WiFi Captive Portal Helper - Connected
+    url: https://connected.mightora.io
+  - name: Mightora | API
+    url: https://api.mightora.io
+  - name: Mightora | QR Code Generator
+    url: https://qr.mightora.io/
+  - name: Mightora | Radar - For generating technology radars
+    url: https://radar.mightora.io
+  - name: Mightora | Custom Connector Builder
+    url: https://custom-connector-builder.mightora.io/
+  - name: Mightora | API
+    url: https://json-explorer.mightora.io/
+  - name: Ian Tweedie | Personal Website
+    url: https://iantweedie.biz
+  - name: Ian Tweedie | Presentation Archive
+    url: https://itweedie.github.io
+  - name: Power Platform Clinic
+    url: https://powerplatformclinic.github.io
+  - name: Tweed Technology Limited
+    url: https://tweed.technology
   - name: Test B
     url: $SECRET_SITE
 
