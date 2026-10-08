@@ -21,11 +21,37 @@ status-website:
   favicon: https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightora-io-swirl.png
   name: Mightora Status
   introTitle: "**Mightora** service status"
-  introMessage: "Live availability and performance for Mightora services. We monitor our services to help keep the Power Platform community connected."
+  introMessage: "Live uptime, response-time trends, and incident history for services monitored by Mightora."
   themeUrl: https://raw.githubusercontent.com/mightora/status/main/assets/mightora-theme.css
   hideNavLogo: true
   hideNavTitle: true
   customHeadHtml: |
+    <meta name="description" content="Live uptime, response-time trends, and incident history for services monitored by Mightora.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://status.mightora.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mightora">
+    <meta property="og:title" content="Mightora Service Status">
+    <meta property="og:description" content="Live uptime, response-time trends, and incident history for services monitored by Mightora.">
+    <meta property="og:url" content="https://status.mightora.io/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightora-io-swirl.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Mightora Service Status">
+    <meta name="twitter:description" content="Live uptime, response-time trends, and incident history for services monitored by Mightora.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Mightora Service Status",
+      "url": "https://status.mightora.io/",
+      "description": "Live uptime, response-time trends, and incident history for services monitored by Mightora.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Mightora",
+        "url": "https://mightora.io/"
+      }
+    }
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/shared.css">
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/components.js" defer></script>
