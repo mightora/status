@@ -106,7 +106,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 949,
+      "2026-10-09": 1223,
       "2026-10-08": 1033
     }
   },
@@ -127,7 +127,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 949,
+      "2026-10-09": 1223,
       "2026-10-08": 1033
     }
   },
@@ -137,19 +137,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "47.70%",
-    "uptimeDay": "53.24%",
-    "uptimeWeek": "47.70%",
-    "uptimeMonth": "47.70%",
-    "uptimeYear": "47.70%",
-    "time": 377,
-    "timeDay": 371,
-    "timeWeek": 377,
-    "timeMonth": 377,
-    "timeYear": 377,
+    "uptime": "41.93%",
+    "uptimeDay": "39.20%",
+    "uptimeWeek": "41.93%",
+    "uptimeMonth": "41.93%",
+    "uptimeYear": "41.93%",
+    "time": 360,
+    "timeDay": 323,
+    "timeWeek": 360,
+    "timeMonth": 360,
+    "timeYear": 360,
     "dailyMinutesDown": {
       "2026-10-08": 554,
-      "2026-10-09": 482
+      "2026-10-09": 756
     }
   },
   {
@@ -212,19 +212,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/json-explorer.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "47.70%",
-    "uptimeDay": "53.24%",
-    "uptimeWeek": "47.70%",
-    "uptimeMonth": "47.70%",
-    "uptimeYear": "47.70%",
-    "time": 377,
-    "timeDay": 371,
-    "timeWeek": 377,
-    "timeMonth": 377,
-    "timeYear": 377,
+    "uptime": "41.93%",
+    "uptimeDay": "39.20%",
+    "uptimeWeek": "41.93%",
+    "uptimeMonth": "41.93%",
+    "uptimeYear": "41.93%",
+    "time": 360,
+    "timeDay": 323,
+    "timeWeek": 360,
+    "timeMonth": 360,
+    "timeYear": 360,
     "dailyMinutesDown": {
       "2026-10-08": 554,
-      "2026-10-09": 482
+      "2026-10-09": 756
     }
   },
   {
@@ -316,7 +316,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 949,
+      "2026-10-09": 1223,
       "2026-10-08": 1106
     }
   }
