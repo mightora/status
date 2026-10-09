@@ -106,7 +106,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 173,
+      "2026-10-09": 236,
       "2026-10-08": 1033
     }
   },
@@ -127,7 +127,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 173,
+      "2026-10-09": 236,
       "2026-10-08": 1033
     }
   },
@@ -137,11 +137,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "44.03%",
-    "uptimeDay": "44.03%",
-    "uptimeWeek": "44.03%",
-    "uptimeMonth": "44.03%",
-    "uptimeYear": "44.03%",
+    "uptime": "41.86%",
+    "uptimeDay": "41.86%",
+    "uptimeWeek": "41.86%",
+    "uptimeMonth": "41.86%",
+    "uptimeYear": "41.86%",
     "time": 375,
     "timeDay": 375,
     "timeWeek": 375,
@@ -149,7 +149,7 @@
     "timeYear": 375,
     "dailyMinutesDown": {
       "2026-10-08": 554,
-      "2026-10-09": 121
+      "2026-10-09": 184
     }
   },
   {
@@ -212,11 +212,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/json-explorer.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "44.03%",
-    "uptimeDay": "44.03%",
-    "uptimeWeek": "44.03%",
-    "uptimeMonth": "44.03%",
-    "uptimeYear": "44.03%",
+    "uptime": "41.86%",
+    "uptimeDay": "41.86%",
+    "uptimeWeek": "41.86%",
+    "uptimeMonth": "41.86%",
+    "uptimeYear": "41.86%",
     "time": 375,
     "timeDay": 375,
     "timeWeek": 375,
@@ -224,7 +224,7 @@
     "timeYear": 375,
     "dailyMinutesDown": {
       "2026-10-08": 554,
-      "2026-10-09": 121
+      "2026-10-09": 184
     }
   },
   {
@@ -305,18 +305,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "test-b",
     "status": "down",
-    "uptime": "0.02%",
-    "uptimeDay": "0.02%",
-    "uptimeWeek": "0.02%",
-    "uptimeMonth": "0.02%",
-    "uptimeYear": "0.02%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-09": 174,
+      "2026-10-09": 236,
       "2026-10-08": 1106
     }
   }
