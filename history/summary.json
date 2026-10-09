@@ -106,7 +106,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 914
+      "2026-10-09": 121,
+      "2026-10-08": 1033
     }
   },
   {
@@ -126,7 +127,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 913
+      "2026-10-09": 121,
+      "2026-10-08": 1033
     }
   },
   {
@@ -135,18 +137,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "52.41%",
-    "uptimeDay": "52.41%",
-    "uptimeWeek": "52.41%",
-    "uptimeMonth": "52.41%",
-    "uptimeYear": "52.41%",
-    "time": 422,
-    "timeDay": 422,
-    "timeWeek": 422,
-    "timeMonth": 422,
-    "timeYear": 422,
+    "uptime": "41.51%",
+    "uptimeDay": "41.51%",
+    "uptimeWeek": "41.51%",
+    "uptimeMonth": "41.51%",
+    "uptimeYear": "41.51%",
+    "time": 409,
+    "timeDay": 409,
+    "timeWeek": 409,
+    "timeMonth": 409,
+    "timeYear": 409,
     "dailyMinutesDown": {
-      "2026-10-08": 434
+      "2026-10-08": 554,
+      "2026-10-09": 121
     }
   },
   {
@@ -209,18 +212,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/json-explorer.mightora.io.ico",
     "slug": "mightora-api",
     "status": "up",
-    "uptime": "52.40%",
-    "uptimeDay": "52.40%",
-    "uptimeWeek": "52.40%",
-    "uptimeMonth": "52.40%",
-    "uptimeYear": "52.40%",
-    "time": 422,
-    "timeDay": 422,
-    "timeWeek": 422,
-    "timeMonth": 422,
-    "timeYear": 422,
+    "uptime": "41.52%",
+    "uptimeDay": "41.52%",
+    "uptimeWeek": "41.52%",
+    "uptimeMonth": "41.52%",
+    "uptimeYear": "41.52%",
+    "time": 409,
+    "timeDay": 409,
+    "timeWeek": 409,
+    "timeMonth": 409,
+    "timeYear": 409,
     "dailyMinutesDown": {
-      "2026-10-08": 434
+      "2026-10-08": 554,
+      "2026-10-09": 121
     }
   },
   {
@@ -312,7 +316,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-10-08": 987
+      "2026-10-09": 121,
+      "2026-10-08": 1106
     }
   }
 ]
