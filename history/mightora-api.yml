@@ -1,7 +1,7 @@
-url: https://json-explorer.mightora.io/
-status: up
-code: 200
-responseTime: 183
-lastUpdated: 2026-10-13T08:21:43.881Z
+url: https://api.mightora.io
+status: down
+code: 404
+responseTime: 411
+lastUpdated: 2026-10-13T16:11:28.942Z
 startTime: 2026-10-08T06:47:09.098Z
 generator: Upptime <https://github.com/upptime/upptime>
