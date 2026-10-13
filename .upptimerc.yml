@@ -23,6 +23,8 @@ sites:
     url: https://qr.mightora.io/
   - name: Mightora | Radar - For generating technology radars
     url: https://radar.mightora.io
+  - name: Mightora | Roadmaps
+    url: https://roadmaps.mightora.io/
   - name: Mightora | Custom Connector Builder
     url: https://custom-connector-builder.mightora.io/
   - name: Mightora | API
@@ -35,6 +37,8 @@ sites:
     url: https://powerplatformclinic.github.io
   - name: Tweed Technology Limited
     url: https://tweed.technology
+  - name: Hero Academy | Reading
+    url: https://reading.heroacademy.app/
   - name: Test B
     url: $SECRET_SITE
 
