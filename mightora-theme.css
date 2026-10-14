@@ -89,3 +89,34 @@ body {
     padding: 1rem;
   }
 }
+
+
+/* Mightora design-system aligned status dashboard */
+:root {
+  --fb-primary: #102b3f;
+  --fb-accent: #0e9185;
+  --nav-current-border-bottom-color: var(--fb-accent);
+  --tag-up-background-color: #087f65;
+  --up-border-left-color: #087f65;
+  --submit-button-background-color: var(--fb-accent);
+  --error-button-background-color: var(--fb-accent);
+}
+html { scroll-behavior: smooth; }
+body { background: var(--body-background-color); color: var(--body-text-color); }
+#sapper main.container { max-width: 1180px; }
+#sapper main header { padding-block: 1rem; }
+#sapper article { border: 1px solid var(--card-border-color); border-radius: 16px; transition: box-shadow .2s ease; }
+#sapper article:hover { box-shadow: 0 5px 24px rgb(17 24 39 / 9%); }
+:where(a,button,input,select,textarea,[tabindex]):focus-visible { outline: 3px solid var(--fb-accent); outline-offset: 2px; }
+.mightora-status-filter { margin: 1.5rem 0; padding: 1.5rem; background: var(--card-background-color); border: 1px solid var(--card-border-color); border-radius: 18px; }
+.mightora-status-filter-heading h2 { margin: 0 0 .25rem; font-size: 1.45rem; }
+.mightora-status-filter-heading p { margin: 0 0 1rem; opacity: .75; }
+.mightora-status-search { display:block; width:100%; max-width: 28rem; padding:.75rem 1rem; margin-bottom:1rem; color: var(--body-text-color); background: var(--card-background-color); border:1px solid #9ca3af; border-radius: 10px; font:inherit; }
+.mightora-status-choices { display:flex; flex-wrap:wrap; gap:.5rem; }
+.mightora-status-choices button { cursor:pointer; border:1px solid #9ca3af; border-radius: 999px; background: transparent; color:var(--body-text-color); padding:.5rem .9rem; font:inherit; font-weight:600; }
+.mightora-status-choices button[aria-pressed="true"] { background:var(--fb-primary); color:#fff; border-color:var(--fb-primary); }
+.mightora-status-choices button:hover:not([aria-pressed="true"]) { border-color:var(--fb-accent); }
+.mightora-status-count { margin:1rem 0 0; font-size:.9rem; opacity:.75; }
+.mightora-service-hidden { display:none !important; }
+@media (max-width:600px) { .mightora-status-filter { padding:1rem; } .mightora-status-choices button { font-size:.88rem; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } #sapper article { transition:none; } }
