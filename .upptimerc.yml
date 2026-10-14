@@ -12,7 +12,7 @@ sites:
   - name: Mightora | Presentation Slides
     url: https://slides.mightora.io
   - name: Mightora | WiFi Captive Portal Helper - Connect
-    url: https://connect.mightora.io/
+    url: http://connect.mightora.io/
   - name: Mightora | WiFi Captive Portal Helper - Connecting
     url: https://connecting.mightora.io
   - name: Mightora | WiFi Captive Portal Helper - Connected
