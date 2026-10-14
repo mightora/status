@@ -34,7 +34,7 @@
     { name: "Mightora | Presentation Slides", url: "https://slides.mightora.io", group: "Presentations & Feedback" },
     { name: "Mightora | Feedback", url: "https://feedback.mightora.io", group: "Presentations & Feedback", requested: true },
     { name: "Mightora | QR Code Generator", url: "https://qr.mightora.io/", group: "Utilities & Connectivity", requested: true },
-    { name: "Mightora | WiFi Captive Portal Helper - Connect", url: "https://connect.mightora.io/", group: "Utilities & Connectivity", requested: true },
+    { name: "Mightora | WiFi Captive Portal Helper - Connect", url: "http://connect.mightora.io/", group: "Utilities & Connectivity", requested: true },
     { name: "Mightora | WiFi Captive Portal Helper - Connecting", url: "https://connecting.mightora.io", group: "Utilities & Connectivity" },
     { name: "Mightora | WiFi Captive Portal Helper - Connected", url: "https://connected.mightora.io", group: "Utilities & Connectivity" },
     { name: "TechTweedie Blog", url: "https://techtweedie.github.io", group: "Websites & Learning" },
