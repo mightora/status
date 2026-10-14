@@ -120,6 +120,34 @@ status-website:
       nav-links='[{"label":"Status","url":"/"},{"label":"Mightora.io ↗","url":"https://mightora.io","ext":true}]'>
     </mightora-header>
   customFootHtml: |
+    <section class="mightora-status-trust" aria-label="Open-source project information">
+      <p>Mightora Status is open source. You can inspect its monitoring configuration, code and GitHub Actions results independently.</p>
+      <div class="mightora-status-badges">
+        <a href="https://github.com/mightora/status/actions/workflows/uptime.yml" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Uptime CI workflow status" src="https://github.com/mightora/status/actions/workflows/uptime.yml/badge.svg"></a>
+        <a href="https://github.com/mightora/status/actions/workflows/site.yml" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Static site deployment workflow status" src="https://github.com/mightora/status/actions/workflows/site.yml/badge.svg"></a>
+        <a href="https://github.com/mightora/status/actions/workflows/status-catalog-check.yml" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Service catalogue automated tests" src="https://github.com/mightora/status/actions/workflows/status-catalog-check.yml/badge.svg"></a>
+        <a href="https://github.com/mightora/status/blob/master/LICENSE" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="MIT open-source licence" src="https://img.shields.io/badge/licence-MIT-blue"></a>
+        <a href="https://github.com/mightora/status" target="_blank" rel="noopener noreferrer"><img loading="lazy" alt="Public GitHub source repository" src="https://img.shields.io/badge/source-GitHub-informational?logo=github"></a>
+      </div>
+    </section>
+    <mightora-author>
+      <div class="author-section-overlay">
+        <div class="author-section-inner">
+          <div class="author-photos">
+            <img src="https://techtweedie.github.io/images/author/ian-tweedie-sq2_hu_a380911c6f4726de.png" alt="Ian Tweedie" class="author-avatar">
+            <img src="https://raw.githubusercontent.com/TechTweedie/techtweedie.github.io/v2/assets/images/site/main-logo.png" alt="TechTweedie blog" class="author-blog-logo">
+          </div>
+          <div class="author-text">
+            <h2 class="author-heading">Built by TechTweedie</h2>
+            <p class="author-bio">Mightora Status is an open-source monitoring dashboard maintained by <strong>Ian Tweedie</strong>, also known as <strong>TechTweedie</strong>. Ian is a technology consultant and developer based in North East England, creating free tools for developers and technology professionals.</p>
+            <div class="author-links">
+              <a href="https://techtweedie.github.io" target="_blank" rel="noopener noreferrer" class="author-link">Blog</a>
+              <a href="https://github.com/itweedie" target="_blank" rel="noopener noreferrer" class="author-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mightora-author>
     <mightora-footer yaml-url="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/footer.yaml">
       <div class="container">
         <div class="footer-bottom">
