@@ -14,13 +14,14 @@ const key = (url) => {
   return value.origin + value.pathname.replace(/\/$/, "");
 };
 
-test("all 17 requested tools have unique, HTTPS Upptime monitors", () => {
+test("all 17 requested tools have unique, correctly schemed Upptime monitors", () => {
   const requested = SERVICES.filter((service) => service.requested);
   assert.equal(requested.length, 17);
   assert.equal(new Set(requested.map((service) => service.name)).size, 17);
   assert.equal(new Set(monitored.map((site) => site.name)).size, monitored.length);
   for (const tool of requested) {
-    assert.ok(tool.url.startsWith("https://"), tool.name + " must use HTTPS");
+    const requiredScheme = tool.name === "Mightora | WiFi Captive Portal Helper - Connect" ? "http://" : "https://";
+    assert.ok(tool.url.startsWith(requiredScheme), tool.name + " must use " + requiredScheme);
     const monitor = byName.get(tool.name);
     assert.ok(monitor, "Missing Upptime monitor: " + tool.name);
     assert.equal(key(monitor.url), key(tool.url), "Mismatch for: " + tool.name);
