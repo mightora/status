@@ -80,6 +80,16 @@ status-website:
   hideNavLogo: true
   hideNavTitle: true
   customHeadHtml: |
+    <!-- Cloudflare Web Analytics: production domain only -->
+    <script>
+      if (window.location.hostname === 'status.mightora.io') {
+        const analyticsBeacon = document.createElement('script');
+        analyticsBeacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+        analyticsBeacon.defer = true;
+        analyticsBeacon.setAttribute('data-cf-beacon', '{"token":"54355574b7594d3d9d9946038d33925a","spa":true}');
+        document.head.appendChild(analyticsBeacon);
+      }
+    </script>
     <meta name="description" content="Live uptime, response-time trends, and incident history for services monitored by Mightora.">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="https://status.mightora.io/">
