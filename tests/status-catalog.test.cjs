@@ -47,5 +47,8 @@ test("the generated status page loads published branding and grouping assets", (
   assert.match(config, /themeUrl:\s*https:\/\/status\.mightora\.io\/mightora-theme\.css/);
   assert.match(config, /<script src="https:\/\/status\.mightora\.io\/status-groups\.js" defer><\/script>/);
   assert.match(config, /<mightora-header/);
+  assert.match(config, /<mightora-author/);
   assert.match(config, /<mightora-footer/);
+  assert.match(config, /status-catalog-check\.yml/);
+  assert.match(config, /\/blob\/master\/LICENSE/);
 });
