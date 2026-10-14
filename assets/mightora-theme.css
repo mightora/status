@@ -216,3 +216,35 @@ body { background: var(--body-background-color); color: var(--body-text-color); 
     font-size: .87rem;
   }
 }
+
+
+/* Trust evidence is deliberately placed directly above the branded author and footer. */
+.mightora-status-trust {
+  max-width: 1180px;
+  box-sizing: border-box;
+  margin: 2.5rem auto 1.25rem;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--card-border-color);
+  color: var(--body-text-color);
+}
+.mightora-status-trust p {
+  margin: 0 0 .8rem;
+  line-height: 1.6;
+}
+.mightora-status-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+}
+.mightora-status-badges a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+}
+.mightora-status-badges img {
+  display: block;
+  height: auto;
+  max-height: 22px;
+  max-width: 100%;
+}
