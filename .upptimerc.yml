@@ -39,6 +39,10 @@ sites:
     url: https://tweed.technology
   - name: Hero Academy | Reading
     url: https://reading.heroacademy.app/
+  - name: Mightora | Architecture Lab
+    url: https://architecture-lab.mightora.io/
+  - name: Mightora | Code Diff
+    url: https://code-diff.mightora.io/
   - name: Test B
     url: $SECRET_SITE
 
@@ -85,6 +89,7 @@ status-website:
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/shared.css">
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mightora/shared-ui@main/components.js" defer></script>
+    <script src="https://status.mightora.io/status-groups.js" defer></script>
   customBodyHtml: |
     <mightora-header
       site-name="Mightora Status"
