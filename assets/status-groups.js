@@ -13,7 +13,7 @@
     if (cards.length < 3) return false;
     const entries = cards.map(card => {
       const link = card.querySelector('a[href*="/history/"]');
-      const name = link?.textContent?.trim() || card.querySelector("h2,h3")?.textContent?.trim() || "";
+      const name = card.querySelector("h2,h3,h4")?.textContent?.trim() || card.textContent?.trim().slice(0, 300) || link?.textContent?.trim() || "";
       const group = groups.find(([, re]) => re.test(name))?.[0] || "Other services";
       card.dataset.statusGroup = group;
       card.classList.add("mightora-service-card");
