@@ -12,7 +12,7 @@ sites:
   - name: Mightora | Presentation Slides
     url: https://slides.mightora.io
   - name: Mightora | WiFi Captive Portal Helper - Connect
-    url: http://connect.mightora.io
+    url: https://connect.mightora.io/
   - name: Mightora | WiFi Captive Portal Helper - Connecting
     url: https://connecting.mightora.io
   - name: Mightora | WiFi Captive Portal Helper - Connected
@@ -27,7 +27,7 @@ sites:
     url: https://roadmaps.mightora.io/
   - name: Mightora | Custom Connector Builder
     url: https://custom-connector-builder.mightora.io/
-  - name: Mightora | API
+  - name: Mightora | JSON Explorer
     url: https://json-explorer.mightora.io/
   - name: Ian Tweedie | Personal Website
     url: https://iantweedie.biz
@@ -43,6 +43,26 @@ sites:
     url: https://architecture-lab.mightora.io/
   - name: Mightora | Code Diff
     url: https://code-diff.mightora.io/
+  - name: Mightora | Power BI Diff
+    url: https://power-bi-diff.mightora.io/
+  - name: Mightora | Semantic Model
+    url: https://semantic-model.mightora.io/
+  - name: Mightora | Power BI Inspector
+    url: https://powerbi-inspector.mightora.io/
+  - name: Mightora | DAX
+    url: https://dax.mightora.io/
+  - name: Mightora | Solution Explorer
+    url: https://solution-explorer.mightora.io/
+  - name: Mightora | REST Builder
+    url: https://rest.mightora.io/
+  - name: Mightora | FetchFlow
+    url: https://fetchflow.mightora.io/
+  - name: Mightora | Expression Lab
+    url: https://expression-lab.mightora.io/
+  - name: Mightora | HAR Analyzer
+    url: https://har.mightora.io/
+  - name: Mightora | Slides Beta
+    url: https://beta.slides.mightora.io/
   - name: Test B
     url: $SECRET_SITE
 
@@ -55,8 +75,8 @@ status-website:
   favicon: https://raw.githubusercontent.com/mightora/mightora.io/main/static/images/mightora-io-swirl.png
   name: Mightora Status
   introTitle: "**Mightora** service status"
-  introMessage: "Live uptime, response-time trends, and incident history for services monitored by Mightora."
-  themeUrl: https://raw.githubusercontent.com/mightora/status/main/assets/mightora-theme.css
+  introMessage: "Live availability, response-time trends and incident history. Browse by tool type, select a service for its history, or choose Open tool to visit it directly."
+  themeUrl: https://status.mightora.io/mightora-theme.css
   hideNavLogo: true
   hideNavTitle: true
   customHeadHtml: |
