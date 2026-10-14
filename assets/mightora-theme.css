@@ -120,3 +120,99 @@ body { background: var(--body-background-color); color: var(--body-text-color); 
 .mightora-service-hidden { display:none !important; }
 @media (max-width:600px) { .mightora-status-filter { padding:1rem; } .mightora-status-choices button { font-size:.88rem; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } #sapper article { transition:none; } }
+
+
+/* Categorised live-status directory (Upptime cards retain their real uptime metrics). */
+#sapper .mightora-grouped-live-status {
+  display: block;
+  margin-top: 1rem;
+}
+#sapper .mightora-status-group {
+  margin: 1.5rem 0 2rem;
+  scroll-margin-top: 6rem;
+}
+#sapper .mightora-status-group-heading {
+  border-bottom: 1px solid var(--card-border-color);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.55rem;
+}
+#sapper .mightora-status-group-heading h3 {
+  margin: 0 0 .15rem;
+  color: var(--body-text-color);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 750;
+}
+#sapper .mightora-status-group-heading p {
+  margin: 0;
+  color: #4b5563;
+  font-size: .93rem;
+}
+#sapper .mightora-status-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  gap: .85rem;
+}
+#sapper .mightora-status-grid article {
+  margin: 0;
+  min-width: 0;
+}
+#sapper .mightora-status-grid h4 {
+  color: var(--body-text-color);
+  font-size: 1.02rem;
+  overflow-wrap: anywhere;
+  margin-bottom: .75rem;
+}
+#sapper .mightora-status-grid article > div:not(.mightora-tool-action) {
+  font-size: .92rem;
+}
+#sapper .mightora-tool-action {
+  margin-top: .8rem;
+  padding-top: .65rem;
+  border-top: 1px solid var(--card-border-color);
+}
+#sapper .mightora-status-grid .mightora-tool-link {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  max-width: 100%;
+  min-height: 2.25rem;
+  padding: .25rem .7rem;
+  border: 1px solid var(--fb-accent);
+  border-radius: 8px;
+  background: #effcf9;
+  color: #065f55;
+  font-size: .87rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+#sapper .mightora-status-grid .mightora-tool-link::after {
+  content: none;
+}
+#sapper .mightora-status-grid .mightora-tool-link:hover {
+  background: var(--fb-primary);
+  border-color: var(--fb-primary);
+  color: white;
+}
+#sapper .mightora-status-grid .mightora-service-pending {
+  border: 1px dashed #94a3b8;
+  background: #f8fafc;
+  color: var(--body-text-color);
+}
+#sapper .mightora-service-pending .mightora-pending-description {
+  color: #475569;
+  font-size: .9rem;
+}
+#sapper .mightora-service-card[hidden],
+#sapper .mightora-status-group[hidden] {
+  display: none !important;
+}
+@media (max-width: 600px) {
+  #sapper .mightora-status-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  #sapper .mightora-status-group-heading p {
+    font-size: .87rem;
+  }
+}
